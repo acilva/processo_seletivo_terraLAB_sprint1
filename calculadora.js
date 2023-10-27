@@ -39,11 +39,22 @@ switch (args[0]) {
 }*/
 
 //questão7
+/*
 const div = () => {
     console.log(parseInt(args[0]) / parseInt(args[1]));
 };
 
 const args = process.argv.slice(2);
 
-div();
+div();*/
+//questão 9
+var x = args[0];
+var y = args[2];
+var operator = args[1];
+
+function evaluate(param1, param2, operator) {
+  return eval(param1 + operator + param2);
+}
+
+if ( console.log( evaluate(x, y, operator) ) ) {}
 
